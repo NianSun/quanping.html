@@ -1,0 +1,69 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<title>实用的全屏相册展示-妙味课堂-www.miaov.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+
+<script src="move.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+<script type="text/javascript" src="js/Full_screen_album.js"></script>
+<script>
+
+</script>
+
+
+
+
+<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen">
+</head>
+<body>		
+<!--弹出层-->
+<div class="layer" id="layer">
+	<h3><span>当前相册内容</span><a href="javascript:;" title="隐藏菜单" id="close">×</a></h3>
+	<div>
+    	<img src="images/1.jpg">
+        <img src="images/2.jpg">
+        <img src="images/3.jpg">
+        <img src="images/4.jpg">
+        <img src="images/5.jpg">
+        <img src="images/6.jpg">
+        <img src="images/7.jpg">
+        <img src="images/8.jpg">
+        <img src="images/9.jpg">
+        <img src="images/10.jpg">
+        <img src="images/11.jpg">
+        <img src="images/12.jpg">
+    </div>
+</div>
+<div id="images">
+	<div id="img">
+        <div style="z-index:2;">
+        	<img src="images/default.png" id="img02">
+        </div>
+    </div>
+</div>
+<div id="controls-wrapper">
+    <div id="controls">
+
+        <div id="slidecounter">
+            <span class="totalslides" id="thisImg"></span>/<span class="slidenumber" id="length"></span>
+        </div>
+    
+        <div id="navigation">
+           <img src="img/album.png" id="album">
+           <img id="prev" src="img/back_dull.png">
+           <img id="play" src="img/pause_dull.png">
+           <img id="next" src="img/forward_dull.png">
+        </div>
+    </div>
+    
+    <div id="prevthumb" style="display: block; ">
+    	<img src="images/1.jpg" id="prevSm">
+    </div>
+    <div id="nextthumb" style="display: block; ">
+   		<img src="images/2.jpg" id="nextSm">
+    </div>
+</div>
+
+</body>
+</html>
